@@ -17,6 +17,7 @@ app.use(
     origin: "*",
   })
 );
+app.use(morgan("tiny"));
 app.use("/api/v1", router);
 const start = async () => {
   try {

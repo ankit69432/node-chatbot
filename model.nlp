@@ -86,6 +86,50 @@
           "can,contact,how,i,you": {
             "intent": "contact-us",
             "domain": "default"
+          },
+          "can,do,what,you": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "can,help,how,me,you": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "are,how,you": {
+            "intent": "general.about",
+            "domain": "default"
+          },
+          "about,do,eagl,golden,know,what,you": {
+            "intent": "knowledge.goldeneagle",
+            "domain": "default"
+          },
+          "eagl,golden,is,what": {
+            "intent": "knowledge.goldeneagle",
+            "domain": "default"
+          },
+          "say,someth": {
+            "intent": "something",
+            "domain": "default"
+          },
+          "": {
+            "intent": "something",
+            "domain": "default"
+          },
+          "are,do,what,you": {
+            "intent": "doing",
+            "domain": "default"
+          },
+          "is,up,what": {
+            "intent": "doing",
+            "domain": "default"
+          },
+          "go,is,on,what": {
+            "intent": "doing",
+            "domain": "default"
+          },
+          "noth": {
+            "intent": "nothing",
+            "domain": "default"
           }
         },
         "intentDict": {
@@ -95,7 +139,13 @@
           "build-chatbot": "default",
           "contact": "default",
           "contact-me": "default",
-          "contact-us": "default"
+          "contact-us": "default",
+          "help": "default",
+          "general.about": "default",
+          "knowledge.goldeneagle": "default",
+          "something": "default",
+          "doing": "default",
+          "nothing": "default"
         },
         "sentences": [
           {
@@ -200,1103 +250,113 @@
           },
           {
             "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
+            "utterance": "what can you do?",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
+            "utterance": "what can you do",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
+            "utterance": "how can you help me?",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
+            "utterance": "how can you help me?",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
+            "utterance": "What can you do?",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
+            "utterance": "How can you help me",
+            "intent": "help"
           },
           {
             "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
+            "utterance": "how are you?",
+            "intent": "general.about"
           },
           {
             "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
+            "utterance": "How are you",
+            "intent": "general.about"
           },
           {
             "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
+            "utterance": "how are you?",
+            "intent": "general.about"
           },
           {
             "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
+            "utterance": "How are you?",
+            "intent": "general.about"
           },
           {
             "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
+            "utterance": "What do you know about golden eagle",
+            "intent": "knowledge.goldeneagle"
           },
           {
             "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
+            "utterance": "what is golden eagle",
+            "intent": "knowledge.goldeneagle"
           },
           {
             "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
+            "utterance": "say something",
+            "intent": "something"
           },
           {
             "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
+            "utterance": "Say something",
+            "intent": "something"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
+            "utterance": "",
+            "intent": "something"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
+            "utterance": "what are you doing?",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
+            "utterance": "what's up?",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
+            "utterance": "what's up",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
+            "utterance": "what is going on?",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
+            "utterance": "what is going on",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
+            "utterance": "what are you doing",
+            "intent": "doing"
           },
           {
             "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "by",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "greeting.bye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hy",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "hii",
-            "intent": "greeting.hello"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name?",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "who are you",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "what is your name",
-            "intent": "about"
-          },
-          {
-            "domain": "default",
-            "utterance": "help me to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how to build a chat bot",
-            "intent": "build-chatbot"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-me"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you",
-            "intent": "contact-us"
-          },
-          {
-            "domain": "default",
-            "utterance": "how can I contact you?",
-            "intent": "contact-us"
+            "utterance": "nothing",
+            "intent": "nothing"
           }
         ],
         "domains": {
@@ -1338,7 +398,18 @@
               "how": 1,
               "can": 1,
               "i": 1,
-              "contact": 1
+              "contact": 1,
+              "do": 1,
+              "know": 1,
+              "about": 1,
+              "golden": 1,
+              "eagl": 1,
+              "say": 1,
+              "someth": 1,
+              "up": 1,
+              "go": 1,
+              "on": 1,
+              "noth": 1
             },
             "intents": {
               "greeting.bye": 1,
@@ -1347,7 +418,13 @@
               "build-chatbot": 1,
               "contact": 1,
               "contact-me": 1,
-              "contact-us": 1
+              "contact-us": 1,
+              "help": 1,
+              "general.about": 1,
+              "knowledge.goldeneagle": 1,
+              "something": 1,
+              "doing": 1,
+              "nothing": 1
             },
             "intentFeatures": {
               "greeting.bye": {
@@ -1404,6 +481,47 @@
                 "i": 1,
                 "contact": 1,
                 "you": 1
+              },
+              "help": {
+                "what": 1,
+                "can": 1,
+                "you": 1,
+                "do": 1,
+                "how": 1,
+                "help": 1,
+                "me": 1
+              },
+              "general.about": {
+                "how": 1,
+                "are": 1,
+                "you": 1
+              },
+              "knowledge.goldeneagle": {
+                "what": 1,
+                "do": 1,
+                "you": 1,
+                "know": 1,
+                "about": 1,
+                "golden": 1,
+                "eagl": 1,
+                "is": 1
+              },
+              "something": {
+                "say": 1,
+                "someth": 1
+              },
+              "doing": {
+                "what": 1,
+                "are": 1,
+                "you": 1,
+                "do": 1,
+                "is": 1,
+                "up": 1,
+                "go": 1,
+                "on": 1
+              },
+              "nothing": {
+                "noth": 1
               }
             },
             "featuresToIntent": {
@@ -1415,7 +533,11 @@
                 "about",
                 "contact",
                 "contact-me",
-                "contact-us"
+                "contact-us",
+                "help",
+                "general.about",
+                "knowledge.goldeneagle",
+                "doing"
               ],
               "later": [
                 "greeting.bye"
@@ -1442,13 +564,20 @@
                 "about"
               ],
               "are": [
-                "about"
+                "about",
+                "general.about",
+                "doing"
               ],
               "what": [
-                "about"
+                "about",
+                "help",
+                "knowledge.goldeneagle",
+                "doing"
               ],
               "is": [
-                "about"
+                "about",
+                "knowledge.goldeneagle",
+                "doing"
               ],
               "your": [
                 "about"
@@ -1457,10 +586,12 @@
                 "about"
               ],
               "help": [
-                "build-chatbot"
+                "build-chatbot",
+                "help"
               ],
               "me": [
-                "build-chatbot"
+                "build-chatbot",
+                "help"
               ],
               "to": [
                 "build-chatbot"
@@ -1481,13 +612,16 @@
                 "build-chatbot",
                 "contact",
                 "contact-me",
-                "contact-us"
+                "contact-us",
+                "help",
+                "general.about"
               ],
               "can": [
                 "build-chatbot",
                 "contact",
                 "contact-me",
-                "contact-us"
+                "contact-us",
+                "help"
               ],
               "i": [
                 "build-chatbot",
@@ -1499,6 +633,41 @@
                 "contact",
                 "contact-me",
                 "contact-us"
+              ],
+              "do": [
+                "help",
+                "knowledge.goldeneagle",
+                "doing"
+              ],
+              "know": [
+                "knowledge.goldeneagle"
+              ],
+              "about": [
+                "knowledge.goldeneagle"
+              ],
+              "golden": [
+                "knowledge.goldeneagle"
+              ],
+              "eagl": [
+                "knowledge.goldeneagle"
+              ],
+              "say": [
+                "something"
+              ],
+              "someth": [
+                "something"
+              ],
+              "up": [
+                "doing"
+              ],
+              "go": [
+                "doing"
+              ],
+              "on": [
+                "doing"
+              ],
+              "noth": [
+                "nothing"
               ]
             },
             "neuralNetwork": {
@@ -1539,7 +708,18 @@
                 "how",
                 "can",
                 "i",
-                "contact"
+                "contact",
+                "do",
+                "know",
+                "about",
+                "golden",
+                "eagl",
+                "say",
+                "someth",
+                "up",
+                "go",
+                "on",
+                "noth"
               ],
               "intents": [
                 "greeting.bye",
@@ -1548,211 +728,534 @@
                 "build-chatbot",
                 "contact",
                 "contact-me",
-                "contact-us"
+                "contact-us",
+                "help",
+                "general.about",
+                "knowledge.goldeneagle",
+                "something",
+                "doing",
+                "nothing"
               ],
               "perceptrons": [
                 [
-                  4.748782634735107,
-                  1.2427458763122559,
-                  4.748782634735107,
-                  10.740307807922363,
-                  10.740306854248047,
-                  -3.545403242111206,
-                  -3.5454025268554688,
-                  -3.5454025268554688,
-                  -3.5454025268554688,
-                  -2.3940751552581787,
-                  -2.3940751552581787,
-                  -0.8863508701324463,
-                  -0.8863508701324463,
-                  -0.8863508701324463,
-                  -0.8863508701324463,
-                  -0.40688785910606384,
-                  -0.40688785910606384,
-                  -0.47326868772506714,
-                  -0.56458979845047,
-                  -0.56458979845047,
-                  -0.56458979845047,
-                  -0.56458979845047,
-                  -1.2696536779403687,
-                  -1.203272819519043,
-                  -1.203272819519043,
-                  -1.1119513511657715,
-                  3.5454037742417484
+                  5.94528341293335,
+                  2.0132148265838623,
+                  5.94528341293335,
+                  13.836024284362793,
+                  13.831649780273438,
+                  -2.352724075317383,
+                  -2.3307547569274902,
+                  -2.3124499320983887,
+                  -2.295011281967163,
+                  -1.56412672996521,
+                  -2.307551383972168,
+                  -1.6050447225570679,
+                  -0.6919177770614624,
+                  -0.36139601469039917,
+                  -0.36139601469039917,
+                  -0.4565814733505249,
+                  -0.4565814733505249,
+                  -0.2853495180606842,
+                  -0.36283254623413086,
+                  -0.36283254623413086,
+                  -0.36283254623413086,
+                  -0.36283254623413086,
+                  -1.5889030694961548,
+                  -1.3844691514968872,
+                  -0.5597067475318909,
+                  -0.4824887812137604,
+                  -0.9107276201248169,
+                  -0.31186264753341675,
+                  -0.31186264753341675,
+                  -0.3737506568431854,
+                  -0.3737506568431854,
+                  -1.2791370153427124,
+                  -1.2791370153427124,
+                  -0.16872765123844147,
+                  -0.08494506776332855,
+                  -0.08494506776332855,
+                  -2.162851572036743,
+                  0.35556574127389595
                 ],
                 [
-                  -1.44965660572052,
-                  -3.5214827060699463,
-                  -1.44965660572052,
-                  -6.3627777099609375,
-                  -6.3627777099609375,
-                  7.922933578491211,
-                  7.922933101654053,
-                  7.9229326248168945,
-                  7.922932147979736,
-                  -1.5128642320632935,
-                  -1.5128642320632935,
-                  -1.6057486534118652,
-                  -1.6057486534118652,
-                  -1.6057486534118652,
-                  -1.6057486534118652,
-                  -0.598893404006958,
-                  -0.598893404006958,
-                  -0.9455638527870178,
-                  -1.1068060398101807,
-                  -1.1068060398101807,
-                  -1.1068060398101807,
-                  -1.1068060398101807,
-                  -1.0549688339233398,
-                  -0.7168607115745544,
-                  -0.7168607115745544,
-                  -0.5556183457374573,
-                  6.362780289414061
+                  -0.8688927292823792,
+                  -2.7472074031829834,
+                  -0.8688927292823792,
+                  -3.9005422592163086,
+                  -3.871473789215088,
+                  13.067687034606934,
+                  13.05961799621582,
+                  13.051487922668457,
+                  13.043298721313477,
+                  -1.0010806322097778,
+                  -1.3419073820114136,
+                  -2.1280486583709717,
+                  -1.9297069311141968,
+                  -0.641434907913208,
+                  -0.641434907913208,
+                  -0.503472626209259,
+                  -0.503472626209259,
+                  -0.6682918667793274,
+                  -0.8016913533210754,
+                  -0.8016913533210754,
+                  -0.8016913533210754,
+                  -0.8016913533210754,
+                  -0.9841110706329346,
+                  -0.608253538608551,
+                  -0.44938111305236816,
+                  -0.3159819543361664,
+                  -0.19035349786281586,
+                  -0.045088835060596466,
+                  -0.045088835060596466,
+                  -0.4540896415710449,
+                  -0.4540896415710449,
+                  -2.3978655338287354,
+                  -2.3978655338287354,
+                  -0.5673637390136719,
+                  -0.2905302345752716,
+                  -0.2905302345752716,
+                  -3.9366676807403564,
+                  1.0338427466149558
                 ],
                 [
-                  -1.711949110031128,
-                  2.710193634033203,
-                  -1.711949110031128,
-                  -0.7331768870353699,
-                  -0.7223421931266785,
-                  -0.7133395671844482,
-                  -0.7067839503288269,
-                  -0.7034813165664673,
-                  -0.7029873728752136,
-                  5.4362664222717285,
-                  5.4362664222717285,
-                  3.395681619644165,
-                  3.395681619644165,
-                  3.395681619644165,
-                  3.395681619644165,
-                  -0.18737106025218964,
-                  -0.18737106025218964,
-                  -0.27975010871887207,
-                  -0.38825809955596924,
-                  -0.38825809955596924,
-                  -0.38825809955596924,
-                  -0.38825809955596924,
-                  -1.1858247518539429,
-                  -1.110465407371521,
-                  -1.110465407371521,
-                  -1.000698208808899,
-                  0.7029877265225631
+                  -0.6235449314117432,
+                  1.1170036792755127,
+                  -0.6235449314117432,
+                  -0.236185684800148,
+                  -0.2315426468849182,
+                  -0.2281487137079239,
+                  -0.22476421296596527,
+                  -0.2209196239709854,
+                  -0.2179230898618698,
+                  9.735967636108398,
+                  3.4270894527435303,
+                  -0.9932787418365479,
+                  2.5644068717956543,
+                  6.354506969451904,
+                  6.354506969451904,
+                  -0.15575635433197021,
+                  -0.15575635433197021,
+                  -0.189476877450943,
+                  -0.29420554637908936,
+                  -0.29420554637908936,
+                  -0.29420554637908936,
+                  -0.29420554637908936,
+                  -4.611209392547607,
+                  -1.509982705116272,
+                  -0.5236619710922241,
+                  -0.41560935974121094,
+                  -3.5576255321502686,
+                  -0.129976287484169,
+                  -0.129976287484169,
+                  -1.105299949645996,
+                  -1.105299949645996,
+                  -0.3366973102092743,
+                  -0.3366973102092743,
+                  -1.8476099967956543,
+                  -0.9789318442344666,
+                  -0.9789318442344666,
+                  -0.25275424122810364,
+                  0.005239241767142239
                 ],
                 [
                   0,
-                  -1.2578072547912598,
+                  -1.6509854793548584,
                   0,
-                  -0.20287415385246277,
-                  -0.1988523155450821,
-                  -0.1955455094575882,
-                  -0.19298455119132996,
-                  -0.1918695867061615,
-                  -0.1918225884437561,
+                  -0.10308284312486649,
+                  -0.09998617321252823,
+                  -0.09697401523590088,
+                  -0.09545935690402985,
+                  -0.09279040992259979,
+                  -0.09116873890161514,
+                  0,
+                  -0.02184295654296875,
+                  -0.19021055102348328,
+                  -0.19021055102348328,
+                  -0.0034984522499144077,
+                  -0.0034984522499144077,
+                  0.3246244788169861,
+                  0.3246244788169861,
+                  1.138604760169983,
+                  3.1242706775665283,
+                  3.1242706775665283,
+                  3.1242706775665283,
+                  3.1242706775665283,
+                  0.6492190957069397,
+                  0.3329862058162689,
+                  0.805639922618866,
+                  -1.1683120727539062,
                   0,
                   0,
-                  -0.1146664097905159,
-                  -0.1146664097905159,
-                  -0.1146664097905159,
-                  -0.1146664097905159,
-                  0.5635069608688354,
-                  0.5635069608688354,
-                  1.12701416015625,
-                  2.959965944290161,
-                  2.959965944290161,
-                  2.959965944290161,
-                  2.959965944290161,
-                  1.1270148754119873,
-                  0.5635066032409668,
-                  0.5635066032409668,
-                  -1.2578072547912598,
-                  0.19182209706474046
+                  0,
+                  -0.04147305339574814,
+                  -0.04147305339574814,
+                  -0.14344310760498047,
+                  -0.14344310760498047,
+                  -0.06634921580553055,
+                  -0.03987976536154747,
+                  -0.03987976536154747,
+                  -0.10443459451198578,
+                  0.0007598897448761508
                 ],
                 [
-                  -0.14202630519866943,
-                  0.3670059144496918,
-                  -0.14202630519866943,
-                  -0.0005190521478652954,
-                  -0.0004972736933268607,
-                  -0.0004764090699609369,
-                  -0.0004564198898151517,
-                  -0.0004372693947516382,
-                  -0.0004189224273432046,
-                  -0.135865718126297,
-                  -0.135865718126297,
-                  -0.0001361062895739451,
-                  -0.0001361062895739451,
-                  -0.0001361062895739451,
-                  -0.0001361062895739451,
-                  -0.00001233307830261765,
-                  -0.00001233307830261765,
-                  -0.00001233307830261765,
-                  -0.26795583963394165,
-                  -0.26795583963394165,
-                  -0.26795583963394165,
-                  -0.26795583963394165,
-                  0.3792819678783417,
-                  0.3792819678783417,
-                  0.3792819678783417,
-                  0.6475160717964172,
-                  -0.09524432298304372
+                  -0.02515447326004505,
+                  0.2040514498949051,
+                  -0.02515447326004505,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.2344495952129364,
+                  -0.16041064262390137,
+                  0,
+                  0,
+                  0,
+                  -0.24581965804100037,
+                  -0.24581965804100037,
+                  0,
+                  -0.2279304414987564,
+                  -0.2279304414987564,
+                  -0.2279304414987564,
+                  -0.2279304414987564,
+                  0.1632234752178192,
+                  0.23574189841747284,
+                  0.6442681550979614,
+                  0.8732372522354126,
+                  -0.16041064262390137,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.1567506052560435
                 ],
                 [
-                  -0.3983919024467468,
-                  0.9006344079971313,
-                  -0.3983919024467468,
-                  -0.021162178367376328,
-                  -0.020292073488235474,
-                  -0.019457731395959854,
-                  -0.018657676875591278,
-                  -0.017890507355332375,
-                  -0.017154868692159653,
-                  -0.3816424608230591,
-                  -0.3816424608230591,
-                  -0.018760649487376213,
-                  -0.018760649487376213,
-                  -0.018760649487376213,
-                  -0.018760649487376213,
-                  -0.005007081665098667,
-                  -0.005007081665098667,
-                  -0.014388742856681347,
-                  -0.7143871188163757,
-                  -0.7143871188163757,
-                  -0.7143871188163757,
-                  -0.7143871188163757,
-                  0.953719437122345,
-                  0.9674757122993469,
-                  0.9674757122993469,
-                  1.6838525533676147,
-                  -0.1373464736834584
+                  -0.05979595705866814,
+                  0.3187856078147888,
+                  -0.05979595705866814,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.6529555320739746,
+                  -0.5058369636535645,
+                  0,
+                  0,
+                  0,
+                  -0.6924744844436646,
+                  -0.6924744844436646,
+                  0,
+                  -0.6051337718963623,
+                  -0.6051337718963623,
+                  -0.6051337718963623,
+                  -0.6051337718963623,
+                  0.2934890389442444,
+                  0.5516741871833801,
+                  1.77455735206604,
+                  2.3821351528167725,
+                  -0.5058369636535645,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.2060985265120871
                 ],
                 [
-                  -0.5265278816223145,
-                  0.9912457466125488,
-                  -0.5265278816223145,
-                  -0.10009046643972397,
-                  -0.09626708924770355,
-                  -0.09258874505758286,
-                  -0.08905000239610672,
-                  -0.08564557880163193,
-                  -0.08237043023109436,
-                  -0.7133080959320068,
-                  -0.7133080959320068,
-                  -0.06976805627346039,
-                  -0.06976805627346039,
-                  -0.06976805627346039,
-                  -0.06976805627346039,
-                  -0.013038934208452702,
-                  -0.013038934208452702,
-                  -0.06654182076454163,
-                  -1.0241529941558838,
-                  -1.0241529941558838,
-                  -1.0241529941558838,
-                  -1.0241529941558838,
-                  1.23198401927948,
-                  1.2938765287399292,
-                  1.2938765287399292,
-                  2.2426021099090576,
-                  -0.11634972625304751
+                  -0.14196740090847015,
+                  0.2657882571220398,
+                  -0.14196740090847015,
+                  -0.005039903335273266,
+                  -0.0048330919817090034,
+                  -0.004634764511138201,
+                  -0.004444572143256664,
+                  -0.004262181930243969,
+                  -0.004087273962795734,
+                  0,
+                  -0.947478175163269,
+                  -0.7233648896217346,
+                  0,
+                  0,
+                  0,
+                  -1.028547763824463,
+                  -1.028547763824463,
+                  -0.0021395233925431967,
+                  -0.9024114608764648,
+                  -0.9024114608764648,
+                  -0.9024114608764648,
+                  -0.9024114608764648,
+                  0.3034158945083618,
+                  0.5083008408546448,
+                  2.5498416423797607,
+                  3.4909069538116455,
+                  -0.7233648896217346,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.017298026010394096,
+                  -0.017298026010394096,
+                  0,
+                  0,
+                  0,
+                  -0.007407912518829107,
+                  -0.11623675112058157
+                ],
+                [
+                  -0.42625853419303894,
+                  1.2864019870758057,
+                  -0.42625853419303894,
+                  -0.006039369851350784,
+                  -0.005786222871392965,
+                  -0.0055436864495277405,
+                  -0.005311316344887018,
+                  -0.005088686477392912,
+                  -0.004875387996435165,
+                  0,
+                  -5.688145160675049,
+                  2.0546369552612305,
+                  -1.0098600387573242,
+                  -0.16369472444057465,
+                  -0.16369472444057465,
+                  3.4259517192840576,
+                  3.4259517192840576,
+                  -0.9437496662139893,
+                  -1.3550091981887817,
+                  -1.3550091981887817,
+                  -1.3550091981887817,
+                  -1.3550091981887817,
+                  -1.7327690124511719,
+                  8.597565650939941,
+                  -3.922149658203125,
+                  -3.5116589069366455,
+                  3.0644967555999756,
+                  -1.4903556108474731,
+                  -1.4903556108474731,
+                  -1.644418478012085,
+                  -1.644418478012085,
+                  -0.12494205683469772,
+                  -0.12494205683469772,
+                  -0.4641657769680023,
+                  -0.23192813992500305,
+                  -0.23192813992500305,
+                  -0.009165327064692974,
+                  -0.717388596272404
+                ],
+                [
+                  -0.5588181614875793,
+                  0.823379397392273,
+                  -0.5588181614875793,
+                  -0.046449627727270126,
+                  -0.04454533010721207,
+                  -0.04271906614303589,
+                  -0.040967635810375214,
+                  -0.039287980645895004,
+                  -0.037677157670259476,
+                  -5.720155715942383,
+                  5.807947158813477,
+                  -3.0933785438537598,
+                  -0.10118362307548523,
+                  0,
+                  0,
+                  -2.0858314037323,
+                  -2.0858314037323,
+                  -1.3024455308914185,
+                  -1.5879849195480347,
+                  -1.5879849195480347,
+                  -1.5879849195480347,
+                  -1.5879849195480347,
+                  8.565553665161133,
+                  -4.306099891662598,
+                  -2.2286019325256348,
+                  -1.9430619478225708,
+                  -2.9807629585266113,
+                  -0.2544388473033905,
+                  -0.2544388473033905,
+                  -0.34819620847702026,
+                  -0.34819620847702026,
+                  -0.24056470394134521,
+                  -0.24056470394134521,
+                  -0.025825316086411476,
+                  -0.0009248969727195799,
+                  -0.0009248969727195799,
+                  -0.060323406010866165,
+                  -0.911168306338619
+                ],
+                [
+                  -0.09365370869636536,
+                  -0.8300254940986633,
+                  -0.09365370869636536,
+                  -0.02655121125280857,
+                  -0.02553503029048443,
+                  -0.02455749921500683,
+                  -0.023617159575223923,
+                  -0.022712605074048042,
+                  -0.021842483431100845,
+                  -0.0070941452868282795,
+                  -1.1215243339538574,
+                  0.6499605178833008,
+                  1.262253761291504,
+                  -0.9056658744812012,
+                  -0.9056658744812012,
+                  -0.0017523670103400946,
+                  -0.0017523670103400946,
+                  -0.0034748094622045755,
+                  -0.00439544627442956,
+                  -0.00439544627442956,
+                  -0.00439544627442956,
+                  -0.00439544627442956,
+                  -0.08312507718801498,
+                  -0.8933678865432739,
+                  -0.08141359686851501,
+                  -0.08048604428768158,
+                  -0.6122917532920837,
+                  1.352286458015442,
+                  1.352286458015442,
+                  6.237190246582031,
+                  6.237190246582031,
+                  -0.22006596624851227,
+                  -0.22006596624851227,
+                  -1.8113313913345337,
+                  -0.9056658744812012,
+                  -0.9056658744812012,
+                  -0.031479474157094955,
+                  -0.10088218585563502
+                ],
+                [
+                  -2.1406846046447754,
+                  -5.340268611907959,
+                  -2.1406846046447754,
+                  -9.260111808776855,
+                  -9.241729736328125,
+                  -9.223271369934082,
+                  -9.204736709594727,
+                  -9.18612289428711,
+                  -9.167430877685547,
+                  -1.7851669788360596,
+                  -2.4331376552581787,
+                  -4.19598913192749,
+                  -3.9045114517211914,
+                  -0.7422351837158203,
+                  -0.7422351837158203,
+                  -0.8972304463386536,
+                  -0.8972304463386536,
+                  -1.482516884803772,
+                  -1.571700930595398,
+                  -1.571700930595398,
+                  -1.571700930595398,
+                  -1.571700930595398,
+                  -1.7949086427688599,
+                  -0.8482860922813416,
+                  -0.8401451706886292,
+                  -0.7509607672691345,
+                  -0.25402674078941345,
+                  0,
+                  0,
+                  -0.7274551391601562,
+                  -0.7274551391601562,
+                  2.4024698734283447,
+                  2.4024698734283447,
+                  -1.617253303527832,
+                  -0.8112937211990356,
+                  -0.8112937211990356,
+                  -9.315710067749023,
+                  9.713772368216027
+                ],
+                [
+                  -0.297770231962204,
+                  -2.1564748287200928,
+                  -0.297770231962204,
+                  -0.31593409180641174,
+                  -0.3038990795612335,
+                  -0.2923193871974945,
+                  -0.28117790818214417,
+                  -0.2704581916332245,
+                  -0.26014444231987,
+                  -3.1473710536956787,
+                  6.499624729156494,
+                  6.712164402008057,
+                  2.2859859466552734,
+                  -4.074756145477295,
+                  -4.074756145477295,
+                  -0.03159530833363533,
+                  -0.03159530833363533,
+                  -0.06211266666650772,
+                  -0.10747180134057999,
+                  -0.10747180134057999,
+                  -0.10747180134057999,
+                  -0.10747180134057999,
+                  -3.147369861602783,
+                  -7.786083698272705,
+                  -0.19149509072303772,
+                  -0.14310887455940247,
+                  4.426174163818359,
+                  -0.49859440326690674,
+                  -0.49859440326690674,
+                  -3.90118670463562,
+                  -3.90118670463562,
+                  0,
+                  0,
+                  6.483341693878174,
+                  3.2416703701019287,
+                  3.2416703701019287,
+                  -0.34176284074783325,
+                  -1.1957780491528902
+                ],
+                [
+                  -0.3000394403934479,
+                  -0.6535582542419434,
+                  -0.3000394403934479,
+                  -1.0541822910308838,
+                  -1.0455025434494019,
+                  -1.037221908569336,
+                  -1.0292727947235107,
+                  -1.0206795930862427,
+                  -1.01350736618042,
+                  -0.20261968672275543,
+                  -0.26190757751464844,
+                  -0.4769728183746338,
+                  -0.45076966285705566,
+                  -0.13479554653167725,
+                  -0.13479554653167725,
+                  -0.10735896229743958,
+                  -0.10735896229743958,
+                  -0.15828759968280792,
+                  -0.18942131102085114,
+                  -0.18942131102085114,
+                  -0.18942131102085114,
+                  -0.18942131102085114,
+                  -0.20350994169712067,
+                  -0.11051952838897705,
+                  -0.09149082750082016,
+                  -0.06035717576742172,
+                  -0.02398235909640789,
+                  -0.005582072306424379,
+                  -0.005582072306424379,
+                  -0.10510426759719849,
+                  -0.10510426759719849,
+                  -0.5566850900650024,
+                  -0.5566850900650024,
+                  -0.14225758612155914,
+                  -0.07188714295625687,
+                  -0.07188714295625687,
+                  14.173513412475586,
+                  0.08235167836371592
                 ]
               ]
             }
@@ -1844,883 +1347,91 @@
       ],
       [
         "en",
-        "see you later"
+        "what can you do?"
       ],
       [
         "en",
-        "by"
+        "what can you do"
       ],
       [
         "en",
-        "bye"
+        "how can you help me?"
       ],
       [
         "en",
-        "hello"
+        "how can you help me?"
       ],
       [
         "en",
-        "hi"
+        "What can you do?"
       ],
       [
         "en",
-        "hy"
+        "How can you help me"
       ],
       [
         "en",
-        "hii"
+        "how are you?"
       ],
       [
         "en",
-        "who are you?"
+        "How are you"
       ],
       [
         "en",
-        "what is your name?"
+        "how are you?"
       ],
       [
         "en",
-        "who are you"
+        "How are you?"
       ],
       [
         "en",
-        "what is your name"
+        "What do you know about golden eagle"
       ],
       [
         "en",
-        "help me to build a chat bot"
+        "what is golden eagle"
       ],
       [
         "en",
-        "how can I build a chat bot"
+        "say something"
       ],
       [
         "en",
-        "how to build a chat bot"
+        "Say something"
       ],
       [
         "en",
-        "how can I contact you"
+        ""
       ],
       [
         "en",
-        "how can I contact you?"
+        "what are you doing?"
       ],
       [
         "en",
-        "how can I contact you"
+        "what's up?"
       ],
       [
         "en",
-        "how can I contact you?"
+        "what's up"
       ],
       [
         "en",
-        "how can I contact you"
+        "what is going on?"
       ],
       [
         "en",
-        "how can I contact you?"
+        "what is going on"
       ],
       [
         "en",
-        "see you later"
+        "what are you doing"
       ],
       [
         "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "by"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hy"
-      ],
-      [
-        "en",
-        "hii"
-      ],
-      [
-        "en",
-        "who are you?"
-      ],
-      [
-        "en",
-        "what is your name?"
-      ],
-      [
-        "en",
-        "who are you"
-      ],
-      [
-        "en",
-        "what is your name"
-      ],
-      [
-        "en",
-        "help me to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I build a chat bot"
-      ],
-      [
-        "en",
-        "how to build a chat bot"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
-      ],
-      [
-        "en",
-        "how can I contact you"
-      ],
-      [
-        "en",
-        "how can I contact you?"
+        "nothing"
       ]
     ]
   },
@@ -2786,6 +1497,48 @@
         "contact-us": [
           {
             "answer": "7999352105 this is my contact numnber"
+          }
+        ],
+        "help": [
+          {
+            "answer": "I can assist you"
+          },
+          {
+            "answer": "I can give you the information related to office"
+          }
+        ],
+        "general.about": [
+          {
+            "answer": "I am great,How are you?"
+          }
+        ],
+        "knowledge.goldeneagle": [
+          {
+            "answer": "Golden Eagle is a leading IT service provider that has been in business since 2015."
+          }
+        ],
+        "something": [
+          {
+            "answer": "I am too busy right now."
+          },
+          {
+            "answer": ""
+          }
+        ],
+        "doing": [
+          {
+            "answer": "just helping you"
+          },
+          {
+            "answer": "chatting with you!"
+          },
+          {
+            "answer": "talking to you"
+          }
+        ],
+        "nothing": [
+          {
+            "answer": "nothing"
           }
         ]
       }
